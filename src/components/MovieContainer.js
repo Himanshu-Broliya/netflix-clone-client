@@ -47,7 +47,7 @@ export const MovieContainer = () => {
 
 
   return (
-    <div className='absolute top-[100%] bg-black'>
+    <div className='absolute top-[35%] md:top-[100%] bg-black'>
       <MovieList/>
     </div>
   )

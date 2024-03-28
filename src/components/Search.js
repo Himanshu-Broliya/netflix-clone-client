@@ -37,8 +37,8 @@ export const Search = () => {
 
     return (
         <>
-        <div className='pt-[10%] flex justify-center'>
-            <div className='w-[60%]  rounded-lg'>
+        <div className='pt-[40%] md:pt-[10%] flex justify-center'>
+            <div className='w-[23.4rem] md:w-[60%]  rounded-lg'>
                 <div className='w-full flex  justify-between py-2 px-4 rounded-lg shadow-lg bg-gray-200'>
                     <input type='text' value={name} onChange={(e) => setName(e.target.value)} className='w-full border-none outline-none text-lg bg-gray-200' placeholder='Search Movies....' />
                     <button className='bg-red-700 px-5 py-2 rounded-md text-white font-semibold' onClick={searchMovie}>{isLoading ? "loading..." : "Search"}</button>
